@@ -31,7 +31,7 @@ If you use these datasets, please cite this repository:
 
     @misc{small-load-carrier-dataset,
       title        = {small-load-carrier-dataset},
-      author       = {Denis Trescher and Waldemar Haag},
+      author       = {Trescher, Denis and Haag, Waldemar},
       year         = {2025},
       note         = {Available at https://github.com/TrescherDe/small-load-carrier-dataset}
     }
