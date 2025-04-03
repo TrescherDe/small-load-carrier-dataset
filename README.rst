@@ -12,14 +12,15 @@ Datasets
 
 Each dataset contains 500 images and is split into `train/` and `val/` subsets.
 
-- **Real**: A real-world image dataset containing the small load carrier and a visually similar storage box. The objects share similar material properties, making them visually challenging to distinguish.
+- **Real**: A dataset containing real images of small load carriers and a small storage box with material properties similar to the small load carrier.
 
-- **Storage Box**: A synthetic baseline dataset generated using Blender and 3D object meshes. It includes the small load carrier and a similar storage box rendered with simple lighting and backgrounds.
+- **Storage Box**: The baseline synthetic dataset containing images generated using Blender and 3D meshes of small load carriers and a small storage box with similar material properties.
 
-- **SD-V1**: A Stable Diffusion-augmented version of the Storage Box dataset. It enhances variability by generating synthetic variations with general style prompts.
+- **SD-V1**: A baseline-extended dataset augmenting the baseline using Stable Diffusion.
 
-- **SD-V2**: A photorealism-focused version of the SD-V1 dataset. The synthetic images are generated using Stable Diffusion with prompts optimized for photorealistic textures and lighting.
+- **SD-V2**: A baseline-extended dataset augmenting the baseline using Stable Diffusion, focusing on photorealism.
 
+- **Testvideo**: A dataset containing images of the small load carrier, a small storage box with similar material properties, and other distracting objects in a real warehouse environment.
 
 
 Citation
