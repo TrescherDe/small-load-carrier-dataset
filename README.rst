@@ -20,7 +20,7 @@ Each dataset contains 500 images and is split into `train/` and `val/` subsets.
 
 - **SD-V2**: A baseline-extended dataset augmenting the baseline using Stable Diffusion, focusing on photorealism.
 
-- **Testvideo**: A dataset containing images of the small load carrier, a small storage box with similar material properties, and other distracting objects in a real warehouse environment.
+- **Test video**: A dataset containing real images of the small load carrier, a small storage box with similar material properties, and other distracting objects in a possible use case scenario.
 
 
 Citation
